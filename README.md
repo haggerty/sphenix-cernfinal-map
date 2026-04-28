@@ -13,6 +13,7 @@ field map.
 | `sPHENIXFieldMap.cxx` | Implementation |
 | `checkFieldMap.C` | ROOT diagnostic macro — plots and Maxwell check |
 | `findCenter.C` | ROOT macro — finds the solenoid magnetic centre (Bz peak / Br zero crossing) |
+| `checkAlignment.C` | ROOT macro — checks alignment of the solenoid axis with the sPHENIX z axis |
 
 ## Data files (not included)
 
@@ -100,3 +101,23 @@ Magnetic centre (Bz maximum / Br sign change): **z ≈ −240 mm**
 ![Mid-plane slices](fieldMap_midplane.png)
 
 *Left: Bz vs r at z = 0. Right: Br vs r at z = 0.*
+
+## Solenoid alignment
+
+The φ-averaged transverse field components ⟨Bx⟩ and ⟨By⟩ are non-zero and nearly
+constant over the full z range, indicating a rigid tilt of the solenoid axis
+relative to the sPHENIX z axis:
+
+| | Value |
+|-|-------|
+| θ_x | +0.79 mrad |
+| θ_y | +2.26 mrad |
+| \|θ\| total | **2.39 mrad (0.137°)** |
+| Tilt azimuth | 71° (primarily toward sPHENIX +y) |
+
+### Alignment plots
+
+![Alignment](fieldMap_alignment.png)
+
+*φ-averaged transverse field and inferred tilt angles vs z. Blue: all r; red: r < 150 mm.
+The flat profiles confirm a rigid tilt rather than a winding asymmetry.*
