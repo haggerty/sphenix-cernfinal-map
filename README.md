@@ -18,7 +18,11 @@ field map.
 ## Data files (not included)
 
 The two full-field CSV files are required at run time but are not stored in this
-repository due to their size (~43 MB combined):
+repository due to their size (~43 MB combined).  On SDCC they are available inside:
+
+```
+/sphenix/data/data02/sphenix/MagnetMapping/cernfinal/download.tar
+```
 
 - `fieldMapFineFullField.csv` — 2 cm step, 10° azimuthal, ~200 k points
 - `fieldMapRoughFullField.csv` — 10 cm step, 10° azimuthal, ~42 k points
