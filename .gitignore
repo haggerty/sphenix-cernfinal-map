@@ -1,0 +1,14 @@
+# CSV measurement data (large; obtain separately)
+*.csv
+
+# Compressed archive
+*.tar
+
+# ROOT ACLiC build artifacts
+*.so
+*.d
+*.pcm
+*.dSYM/
+
+# Generated output
+*.pdf
