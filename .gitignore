@@ -10,5 +10,6 @@
 *.pcm
 *.dSYM/
 
-# Generated output
+# Generated output (diagnostic plots)
 *.pdf
+!magnet_mapping_haggerty_2026-04-28.pdf

@@ -125,3 +125,7 @@ relative to the sPHENIX z axis:
 
 *φ-averaged transverse field and inferred tilt angles vs z. Blue: all r; red: r < 150 mm.
 The flat profiles confirm a rigid tilt rather than a winding asymmetry.*
+
+## Presentations
+
+- [Presentation to tracking meeting 2026-04-28](magnet_mapping_haggerty_2026-04-28.pdf)
