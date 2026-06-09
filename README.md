@@ -37,6 +37,23 @@ Surveyor → sPHENIX coordinate transform:
 `x_phx = x_s`, `y_phx = z_s`, `z_phx = −y_s`;
 `Bx_phx = Bx_s`, `By_phx = Bz_s`, `Bz_phx = −By_s`.
 
+### Measured extent
+
+Physical coverage of the raw measured points, in sPHENIX coordinates (mm).
+This is the data extent, distinct from the interpolation [grid](#grid) below.
+
+| Map | points | x | y | z | r | φ |
+|-----|-------:|---|---|---|---|---|
+| `fieldMapFineFullField`  | ~200 k | −858 … 852 | −856 … 855 | −2049 … 1969 | 53 … 859 | full 360° |
+| `fieldMapRoughFullField` | ~42 k  | −858 … 852 | −856 … 855 | −2457 … 1942 | 53 … 858 | full 360° |
+| `fieldMapRoughHalfField` | ~42 k  | −858 … 852 | −857 … 854 | −2455 … 1942 | 53 … 859 | full 360° |
+
+- **Transverse:** cylinder of radius **~860 mm**, full azimuth, with a **central
+  hole** — the smallest sampled radius is **~53 mm** (nothing is measured on axis).
+- **Axial:** the fine map spans **z ≈ −2.05 … +1.97 m**; the rough maps reach
+  ~400 mm further south (**z down to ≈ −2.46 m**). The rough map's only unique
+  contribution is this −z (south) fringe tail — elsewhere the fine map overrides it.
+
 ## Usage
 
 Compile and run diagnostics from the directory containing the CSVs:
