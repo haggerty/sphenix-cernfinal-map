@@ -42,8 +42,8 @@ Surveyor → sPHENIX coordinate transform:
 Physical coverage of the raw measured points, in sPHENIX coordinates (mm).
 This is the data extent, distinct from the interpolation [grid](#grid) below.
 
-| Map | points | x | y | z | r | φ |
-|-----|-------:|---|---|---|---|---|
+| Map | points | x (mm) | y (mm) | z (mm) | r (mm) | φ |
+|-----|-------:|--------|--------|--------|--------|---|
 | `fieldMapFineFullField`  | ~200 k | −858 … 852 | −856 … 855 | −2049 … 1969 | 53 … 859 | full 360° |
 | `fieldMapRoughFullField` | ~42 k  | −858 … 852 | −856 … 855 | −2457 … 1942 | 53 … 858 | full 360° |
 | `fieldMapRoughHalfField` | ~42 k  | −858 … 852 | −857 … 854 | −2455 … 1942 | 53 … 859 | full 360° |
